@@ -1,10 +1,10 @@
 #task0-1
 name1 = "ねずこ"
 name2 = "ぜんいつ"
-print(f"{name1}と{name2}は仲間です")
+print(f"「{name1}」と「{name2}」は仲間です")
 
 #task0-2
-if name2 != "むざん":
+if name2 == "むざん":
     print("仲間ではありません")
 
 #task0-3
