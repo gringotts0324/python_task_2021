@@ -1,5 +1,6 @@
+import pandas as pd
+
 def search():
-    import pandas as pd
     
     #csvを読み込んで、カラム名が「名前」のカラムをリスト化
     data = pd.read_csv("kimetsu.csv")
