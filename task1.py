@@ -4,9 +4,7 @@ def search():
     
     #csvを読み込んで、カラム名が「名前」のカラムをリスト化
     data = pd.read_csv("kimetsu.csv")
-    source = []
-    list = data["名前"].tolist()
-    source.extend(list)
+    source = data["名前"].tolist()
     
     #入力し、リストに追加
     word = input("鬼滅の登場人物の名前を入力してください")
